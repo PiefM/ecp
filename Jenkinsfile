@@ -17,7 +17,11 @@ pipeline {
         bat 'npm install --save-dev jest'
         bat 'npm install supertest'
         bat 'npm install angular'
+        bat 'npm install -g @angular/cli'
         bat 'npm install express'
+        bat 'npm install tslint'
+        bat 'ts-node'
+        bat 'typescript'
       }
     }
      
